@@ -1,13 +1,13 @@
 {% set name = "iso4217" %}
-{% set version = "1.9.20220401" %}
+{% set version = "1.13.20250512" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: e4c954a0c42e42a064cc226781cde39f88fe056959a391e2367c5e544d3107d2
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: 13df49c199255e1c333dda7f9019b76f7e6f54190e8b49875216e7cc8a8781d2
 
 build:
   noarch: python
